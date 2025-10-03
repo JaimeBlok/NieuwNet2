@@ -1,0 +1,28 @@
+{
+  "name": "hamburger-menu-component",
+  "version": "1.0.0",
+  "description": "Standalone hamburger menu component with GSAP animations",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "hamburger-menu",
+    "gsap",
+    "animation",
+    "overlay-menu"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "lenis": "^1.0.29"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
+}

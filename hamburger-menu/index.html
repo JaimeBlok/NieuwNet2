@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburger Menu | Standalone Component</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Fixed hamburger menu positioned in top right -->
+    <nav class="hamburger-nav">
+      <div class="menu-bar">
+        <div class="menu-logo">
+          <a href="#"><img src="assets/logo.png" alt="Logo" /></a>
+        </div>
+        <div class="menu-toggle-btn">
+          <div class="menu-toggle-label"><p>Menu</p></div>
+          <div class="menu-hamburger-icon">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="menu-overlay">
+        <div class="menu-overlay-content">
+          <div class="menu-media-wrapper">
+            <img src="assets/menu-media.jpg" alt="" />
+          </div>
+          <div class="menu-content-wrapper">
+            <div class="menu-content-main">
+              <div class="menu-col">
+                <div class="menu-link"><a href="#">Index</a></div>
+                <div class="menu-link"><a href="#">Portfolio</a></div>
+                <div class="menu-link"><a href="#">Studio</a></div>
+                <div class="menu-link"><a href="#">Journal</a></div>
+                <div class="menu-link"><a href="#">Connect</a></div>
+              </div>
+
+              <div class="menu-col">
+                <div class="menu-tag"><a href="#">Web Animations</a></div>
+                <div class="menu-tag"><a href="#">Interactive Media</a></div>
+                <div class="menu-tag"><a href="#">Motion Craft</a></div>
+              </div>
+            </div>
+            <div class="menu-footer">
+              <div class="menu-col">
+                <p>Toronto, Canada</p>
+              </div>
+              <div class="menu-col">
+                <p>+1 437 555 0199</p>
+                <p>hello@nullspace.studio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Demo content to show menu overlay functionality -->
+    <div class="demo-content">
+      <section class="demo-section">
+        <h1>Hamburger Menu Component</h1>
+        <p>This is a standalone hamburger menu component positioned in the top right corner. Click the menu button to see the overlay animation.</p>
+      </section>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

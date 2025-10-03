@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NieuwNet - Webontwikkeling</title>
+    <link rel="icon" type="image/png" href="/public/Favico.png" />
+    <link rel="shortcut icon" type="image/png" href="/public/Favico.png" />
+    <link rel="apple-touch-icon" href="/public/Favico.png" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- Hamburger Menu -->
+    <nav class="hamburger-nav">
+      <div class="menu-bar">
+        <div class="menu-toggle-btn">
+          <div class="menu-toggle-label"><p>Menu</p></div>
+          <div class="menu-hamburger-icon">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="menu-overlay">
+        <div class="menu-overlay-content">
+          <div class="menu-media-wrapper">
+            <img src="/banner-img.jpg" alt="" />
+          </div>
+          <div class="menu-content-wrapper">
+            <div class="menu-content-main">
+              <div class="menu-col">
+                <div class="menu-link"><a href="#" id="homeLink">Home</a></div>
+                <div class="menu-link"><a href="#" id="dienstenLink">Diensten</a></div>
+                <div class="menu-link"><a href="#banner-background-section" id="overOnsLink">Over Ons</a></div>
+                <div class="menu-link"><a href="#outro-section" id="contactLink">Contact</a></div>
+              </div>
+
+              <div class="menu-col">
+              </div>
+            </div>
+            <div class="menu-footer">
+              <div class="menu-col">
+                <p>
+                  <span>BTW: <span class="copyable-number" data-copy="NL003830384B29">NL003830384B29</span>
+                    <button class="copy-icon" data-copy="NL003830384B29" aria-label="Kopieer BTW nummer">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+                        <path d="M16 8V6C16 4.89543 15.1046 4 14 4H6C4.89543 4 4 4.89543 4 6V14C4 15.1046 4.89543 16 6 16H8" stroke="currentColor" stroke-width="2"/>
+                      </svg>
+                    </button>
+                  </span>
+                  <br>
+                  <span>KVK: <span class="copyable-number" data-copy="92211542">92211542</span>
+                    <button class="copy-icon" data-copy="92211542" aria-label="Kopieer KVK nummer">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+                        <path d="M16 8V6C16 4.89543 15.1046 4 14 4H6C4.89543 4 4 4.89543 4 6V14C4 15.1046 4.89543 16 6 16H8" stroke="currentColor" stroke-width="2"/>
+                      </svg>
+                    </button>
+                  </span>
+                  <br class="mobile-only"><a href="/privacy.html" class="mobile-only">Privacy verklaring</a>
+                  <br class="mobile-only"><a href="/privacy.html" class="mobile-only">Algemene voorwaarden</a>
+                </p>
+              </div>
+              <div class="menu-col desktop-only">
+                <p>
+                  <a href="/privacy.html">Privacy verklaring</a>
+                  <br><a href="/privacy.html">Algemene voorwaarden</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="main-content">
+    </div>
+
+    <!-- Banner section outside main-content to avoid menu interference -->
+    <section class="banner">
+      <div class="banner-img-container">
+        <div class="img banner-white-bg"></div>
+        <div class="img mask banner-white-bg"></div>
+        <div class="img mask banner-white-bg"></div>
+        <div class="img mask banner-white-bg"></div>
+        <div class="img mask banner-white-bg"></div>
+        <div class="img mask banner-white-bg"></div>
+        <div class="img mask banner-white-bg"></div>
+
+        <div class="banner-header">
+          <div class="services-list">
+            <h1 class="service-item" data-service="websites">Wij bouwen <span class="rotating-text rotating-text-1">Websites</span></h1>
+            <h1 class="service-item" data-service="webshops">Wij bouwen <span class="rotating-text rotating-text-2">Webshops</span></h1>
+            <h1 class="service-item" data-service="apps">Wij bouwen <span class="rotating-text rotating-text-3">Apps</span></h1>
+            <h1 class="service-item" data-service="platforms">Wij bouwen <span class="rotating-text rotating-text-4">Platforms</span></h1>
+            <h1 class="service-item" data-service="webtools">Wij bouwen <span class="rotating-text rotating-text-5">Webtools</span></h1>
+          </div>
+        </div>
+
+        <!-- Favicon -->
+        <div class="banner-favicon">
+          <img src="public/Favico.png" alt="NieuwNet" />
+        </div>
+
+        <!-- Arrow Button -->
+        <div class="contact-cta-button banner-arrow-btn">
+          <div class="contact-btn-content">
+            <span class="contact-btn-text">Ontdek onze diensten</span>
+            <div class="contact-btn-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-btn-bg"></div>
+        </div>
+      </div>
+
+        <div class="banner-intro-text-container">
+          <div class="banner-intro-text"><h1>Wij zijn</h1></div>
+          <div class="banner-intro-text"><h1><span style="color: #0162CA;">NieuwNet!</span></h1></div>
+        </div>
+    </section>
+
+    <!-- New section with banner image background -->
+    <section class="banner-background-section" id="banner-background-section">
+      <div class="banner-bg-content">
+        <div class="banner-bg-text-container">
+          <h1 class="banner-bg-title">Ontstaan in Delft,<br>Projecten door heel<br>Nederland</h1>
+          <div class="banner-bg-cta-button" id="bannerBgCtaBtn">
+            <div class="banner-bg-btn-content">
+              <div class="banner-bg-btn-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <span class="banner-bg-btn-text" id="bannerBgBtnText">Meer over ons</span>
+            </div>
+            <div class="banner-bg-btn-bg"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Over Ons White Panel -->
+      <div class="over-ons-panel">
+        <!-- Close button for tablet and mobile -->
+        <div class="over-ons-close-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="over-ons-panel-content">
+          <h1 class="banner-bg-title">Over<br>NieuwNet.</h1>
+          <div class="over-ons-timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>2023 - Het Begin</h3>
+                <p>Gestart vanuit het idee om lokale ondernemers een stapje op weg te helpen. Eerste stappen in de digitale wereld met eenvoudige websites en online aanwezigheid.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>2024 - Eerste Klanten</h3>
+                <p>De eerste 10 klanten succesvol geholpen met hun digitale transformatie. Van lokale bakker tot koffiebranderij - elk project een nieuwe uitdaging en leerervaring.</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>2025 - Complexe Oplossingen</h3>
+                <p>Uitgebreid naar complexe applicaties en automatiseringen. Van eenvoudige websites naar complete digitale ecosystemen die bedrijven écht vooruit helpen.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="over-ons-buttons">
+            <a href="diensten.html" class="over-ons-btn over-ons-btn-primary">
+              Onze diensten
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="#contact" class="over-ons-btn over-ons-btn-secondary">
+              Neem contact op
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Outro section in separate container -->
+    <div class="outro-content">
+      <section class="outro" id="outro-section">
+        <h1><span class="font-light">Zullen we</span><br><span class="font-bold">Samenwerken</span>?</h1>
+        
+        <!-- Beautiful Contact Button -->
+        <div class="contact-cta-button" id="contactCtaBtn">
+          <div class="contact-btn-content">
+            <span class="contact-btn-text">Neem contact op</span>
+            <div class="contact-btn-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-btn-bg"></div>
+        </div>
+
+        
+      </section>
+    </div>
+
+    <!-- Contact Menu -->
+    <nav class="contact-nav">
+      <div class="contact-menu-overlay">
+        <!-- Contact Menu Close Button -->
+        <div class="contact-menu-close-btn" id="contactMenuCloseBtn">
+          <div class="contact-close-icon">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        
+        <div class="contact-menu-overlay-content">
+          <div class="contact-menu-media-wrapper">
+            <img src="/banner-img.jpg" alt="" />
+          </div>
+          <div class="contact-menu-content-wrapper">
+             <div class="contact-menu-content-main">
+               <div class="contact-menu-col">
+                 <div class="contact-menu-link"><a href="tel:+31646231696">+31 6 46 23 16 96</a></div>
+                 <div class="contact-menu-link"><a href="mailto:contact@nieuw-net.nl">contact@nieuw-net.nl</a></div>
+               </div>
+
+              <div class="contact-menu-col">
+                <div class="contact-menu-tag"><a href="#" id="offerteBtn">Vraag een offerte aan</a></div>
+                <div class="contact-menu-tag"><a href="#" id="gesprekBtn">Plan een gesprek</a></div>
+                <div class="contact-menu-tag"><a href="#" id="andereVraagBtn">Andere vraag</a></div>
+              </div>
+            </div>
+
+            <!-- Contact Form (initially hidden) -->
+            <div class="contact-form-section" id="contactFormSection">
+              <div class="contact-form">
+                <h2>Vertel ons wat je wil!</h2>
+                <form id="contactForm" novalidate>
+                  <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Naam *">
+                    <div class="error-message">Dit veld is verplicht</div>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="E-mail *">
+                    <div class="error-message">Dit veld is verplicht</div>
+                  </div>
+                  <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Telefoon">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="subject" name="subject" required placeholder="Onderwerp *">
+                    <div class="error-message">Dit veld is verplicht</div>
+                  </div>
+                  <div class="form-group">
+                    <textarea id="message" name="message" rows="6" required placeholder="Bericht *"></textarea>
+                    <div class="error-message">Dit veld is verplicht</div>
+                  </div>
+                  <div class="form-actions">
+                    <button type="button" class="cancel-btn" id="cancelForm">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      Terug
+                    </button>
+                    <button type="submit" class="submit-btn">
+                      Verstuur bericht
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+             <div class="contact-menu-footer">
+               <div class="contact-menu-col">
+                 <p>
+                   <span>BTW: <span class="copyable-number" data-copy="NL003830384B29">NL003830384B29</span>
+                     <button class="copy-icon" data-copy="NL003830384B29" aria-label="Kopieer BTW nummer">
+                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+                         <path d="M16 8V6C16 4.89543 15.1046 4 14 4H6C4.89543 4 4 4.89543 4 6V14C4 15.1046 4.89543 16 6 16H8" stroke="currentColor" stroke-width="2"/>
+                       </svg>
+                     </button>
+                   </span>
+                   <br>
+                   <span>KVK: <span class="copyable-number" data-copy="92211542">92211542</span>
+                     <button class="copy-icon" data-copy="92211542" aria-label="Kopieer KVK nummer">
+                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2"/>
+                         <path d="M16 8V6C16 4.89543 15.1046 4 14 4H6C4.89543 4 4 4.89543 4 6V14C4 15.1046 4.89543 16 6 16H8" stroke="currentColor" stroke-width="2"/>
+                       </svg>
+                     </button>
+                   </span>
+                   <br class="mobile-only"><a href="/privacy.html" class="mobile-only">Privacy verklaring</a>
+                   <br class="mobile-only"><a href="/privacy.html" class="mobile-only">Algemene voorwaarden</a>
+                 </p>
+               </div>
+               <div class="contact-menu-col desktop-only">
+                 <p>
+                   <a href="/privacy.html">Privacy verklaring</a>
+                   <br><a href="/privacy.html">Algemene voorwaarden</a>
+                 </p>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
